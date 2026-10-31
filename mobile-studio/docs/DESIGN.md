@@ -22,3 +22,7 @@ Some tradeoffs remain: four groups of 16 pads are more legible than 128, 1–4 b
 
 ## V2 revision
 Four destinations: Pads / Son / Séquence / Effets. Sound editing is a workspace. Selection, mute and solo are direct grid tools. Targeted two-slot racks per pad and Master restore the effect catalog; XY is complementary. MIDI ports/channels/mapping/transport have explicit settings. Scroll is allowed for edit/rack parameters. Compact header removes decorative branding. Earlier v1 simplifications above are superseded.
+
+## V3 UX corrections
+Capture was hidden behind a generic plus, automatically recorded on permission, and committed on stop. It now has a direct Micro entry and a dedicated temporary take: prepare, record, review, commit. An explicit destination and replacement label prevent ambiguity. Meter/peak feedback and elapsed time expose the actual input state. Review can audition dry, retry or cancel without modifying the project. This focused dialog isolates microphone capture from performance; four main workspaces remain stable.
+Long hold no longer navigates away from pads. Notes vs Micro are separately named. Solo has a global visible exit. Grid action modes do not capture keyboard/step audition. No visual redesign or new navigation tier was needed.
