@@ -49,3 +49,5 @@ Son now has a persistent Listen/Stop and optional Loop audition across Cut/Setti
 `node tests/kits.cjs` checks all signal peaks, fades, energy, diversity and style demos/previews. Temporary browser harness `tests/kits-effects-browser.js` checks optional demo routing/tempo, saved state and atomic undo, full-loop safety, all chooser icons and target guards, continuous audition/tab navigation/live loop bounds/cleanup. Browser fixtures are not shipped.
 
 Effect chooser visual refinement: 22px SVG line icons, neutral default state, compact two-column rows, family tabs and restrained selected marker. No generated raster assets or external icon/font dependency.
+
+Starter revision 3 corrects kick audibility: richer upper harmonics and a short 200–240Hz body, with target energy adjusted and peak ceiling unchanged. Indicative 180Hz high-pass checks improve the first 200ms by roughly 3–6dB over revision 2 across four kits. This does not measure a particular phone; physical listening remains unverified. Saved samples are preserved and require explicit kit reload to use the revised kick.
