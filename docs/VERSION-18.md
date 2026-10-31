@@ -7,3 +7,5 @@ Après remplacement, le bouton reste désactivé et la fenêtre attend la fin de
 Les appels concurrents à saveLocal partagent une promesse qui attend les écritures en cours puis le dernier état modifié. Une modification pendant une transaction provoque une nouvelle écriture avant résolution. Une erreur reste signalée et laisse le projet marqué comme non sauvegardé.
 
 Validation : tests des sauvegardes concurrentes, du dernier instantané, de la résolution après commit et de l’erreur de stockage. Test navigateur : son de type prise audio sauvegardé sur A01, remplacement des 16 pads de A par Electro, confirmation de sauvegarde et rechargement de page conservant A01 / ELECTRO KICK. Le test navigateur ne reproduit pas la session privée du téléphone de l’utilisateur ; sa cause exacte initiale n’est pas établie.
+
+La fenêtre de kits attend également la restauration initiale de la session : une lecture IndexedDB lente ne peut plus refermer la fenêtre et annuler le chargement en cours.
