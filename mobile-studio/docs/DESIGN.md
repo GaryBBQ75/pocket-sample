@@ -19,3 +19,6 @@ Each mode answers one question: “Which sound do I play?”, “Where does it l
 Visual language: dark graphite canvas, cream type, lime transport and selection, soft four-group pad colors and compact waveform silhouettes. This abandons the hardware facade and the dense panel stack of the original app. Icons are accompanied by text for navigation, sound sources and key actions. Touch targets are typically 40–46px; pad dimensions adapt to available space. Projects are device-local; exports are the external safety copy.
 
 Some tradeoffs remain: four groups of 16 pads are more legible than 128, 1–4 bars are easier to navigate than 128, and four musical effects are more discoverable than a catalog of dozens. These limits are deliberate in this first iteration and do not remove anything from the archived app.
+
+## V2 revision
+Four destinations: Pads / Son / Séquence / Effets. Sound editing is a workspace. Selection, mute and solo are direct grid tools. Targeted two-slot racks per pad and Master restore the effect catalog; XY is complementary. MIDI ports/channels/mapping/transport have explicit settings. Scroll is allowed for edit/rack parameters. Compact header removes decorative branding. Earlier v1 simplifications above are superseded.
