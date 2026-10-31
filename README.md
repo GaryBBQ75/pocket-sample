@@ -4,7 +4,7 @@ Studio de sampling mobile pour navigateur : pads, découpe, séquences, effets e
 
 Version web : https://pocket-sample-gary.gary-legrill.chatgpt.site/
 
-Implémentation indépendante inspirée des fonctions du MPC Sample. Ce projet ne contient ni le firmware, ni les sons usine Akai ; ses algorithmes ne reproduisent pas exactement ceux du matériel. Voir [la couverture fonctionnelle](docs/OPTION-COVERAGE.md) et [les notes de version 16](docs/VERSION-16.md).
+Implémentation indépendante inspirée des fonctions du MPC Sample. Ce projet ne contient ni le firmware, ni les sons usine Akai ; ses algorithmes ne reproduisent pas exactement ceux du matériel. Voir [la couverture fonctionnelle](docs/OPTION-COVERAGE.md) et [les notes de version 17](docs/VERSION-17.md).
 
 ## Tester et héberger
 
@@ -23,6 +23,7 @@ node tests/stretch-worker.cjs
 node tests/midi-timecode.cjs
 node tests/lofi-dsp.cjs
 node tests/warp-tempo.cjs
+node tests/starter-bank.cjs
 ```
 
 Les scénarios `tests/version13-browser.js` et `tests/version13-io-browser.js` sont des harnais de vérification manuels à inclure uniquement dans une copie de test de la page. Ils remplacent temporairement le projet et restaurent son état ; le second utilise une entrée audio synthétique, sans permission micro.

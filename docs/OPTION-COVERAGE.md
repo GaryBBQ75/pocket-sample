@@ -1,6 +1,6 @@
-# Couverture MPC Sample — Pocket Sample 16
+# Couverture MPC Sample — Pocket Sample 17
 
-Audit du manuel MPC Sample User Guide v1.3.0 RevA, pages 24–63, téléchargé le 30 octobre 2026 depuis le CDN officiel inMusic. Relecture web complète le 31 octobre 2026 ; détails actuels dans VERSION-16.md. Statuts fonctionnels, pas une preuve d’équivalence sonore. Les fonctions sont évaluées comme implémentations indépendantes. Les restrictions de plateforme et les différences de moteur restent explicites.
+Audit du manuel MPC Sample User Guide v1.3.0 RevA, pages 24–63, téléchargé le 30 octobre 2026 depuis le CDN officiel inMusic. Relecture web complète le 31 octobre 2026 ; détails actuels dans VERSION-17.md. Statuts fonctionnels, pas une preuve d’équivalence sonore. Les fonctions sont évaluées comme implémentations indépendantes. Les restrictions de plateforme et les différences de moteur restent explicites.
 
 | Fonction | État | Portée / écart |
 |---|---|---|
@@ -12,7 +12,7 @@ Audit du manuel MPC Sample User Guide v1.3.0 RevA, pages 24–63, téléchargé 
 | Warp | Adapté | Off / pourcentage / suivi du tempo, avec ou sans conservation de la hauteur. Original intact ; cache préparé hors thread audio, 48 Mo, 80 ms minimum pour WSOLA, sortie 60 s maximum. Changement de séquence préparé avant lancement ; en lecture, préparation du nouveau tempo puis application à la prochaine mesure et fondu de 5 ms des boucles avec conservation de leur phase. Deux rendus doivent tenir dans les 48 Mo ; sinon le tempo précédent est conservé. |
 | Chop régions / transitoires / manuel | Adapté | Mode CHOP sur la grille sans écrasement, marqueurs manuels, régions/transitoires, split/merge, extraction et répartition. REC et Sequence Recall enregistrent directement les tranches ; leurs bornes sont conservées dans les notes, même après déplacement des marqueurs. |
 | Note On / Loop / Reverse / Mute / 16 Levels | Présent | Arrêt immédiat distinct du mute, mode Mute par grille, solo exclusif en haut, Note On combinable avec Loop, relâchement indépendant des notes, FULL LEVEL et variations de vélocité/filtre/tune. |
-| Sample browser / save | Adapté | Sélection de 256 fichiers ou dossier, préécoute manuelle/automatique et sauvegarde WAV ; fichiers chargés à la demande. Pas de bibliothèque usine Akai. |
+| Sample browser / save | Adapté | Sélection de 256 fichiers ou dossier, préécoute manuelle/automatique et sauvegarde WAV ; fichiers chargés à la demande. Banque initiale de 64 sons synthétiques originaux en quatre kits, chargés à la demande ; pas de bibliothèque usine Akai. |
 | Enregistrement micro / entrées | Adapté | Choix des entrées exposées, stéréo/L/R, durée libre ou séquence, seuil, monitor Off/Auto/On, inclusion du rack, marqueurs pendant la prise. Durée 59 s maximum et synchronisation MediaRecorder non sample-exacte. |
 | Sample Recall | Adapté | 25 dernières secondes d’une entrée explicitement armée. Se désarme en arrière-plan. |
 | Séquences 1–128 mesures | Présent | 128 emplacements, longueur indépendante, copie, double/half, Continue. |
