@@ -1,6 +1,6 @@
-# Couverture MPC Sample — Pocket Sample 17
+# Couverture MPC Sample — Pocket Sample 18
 
-Audit du manuel MPC Sample User Guide v1.3.0 RevA, pages 24–63, téléchargé le 30 octobre 2026 depuis le CDN officiel inMusic. Relecture web complète le 31 octobre 2026 ; détails actuels dans VERSION-17.md. Statuts fonctionnels, pas une preuve d’équivalence sonore. Les fonctions sont évaluées comme implémentations indépendantes. Les restrictions de plateforme et les différences de moteur restent explicites.
+Audit du manuel MPC Sample User Guide v1.3.0 RevA, pages 24–63, téléchargé le 30 octobre 2026 depuis le CDN officiel inMusic. Relecture web complète le 31 octobre 2026 ; détails actuels dans VERSION-18.md. Statuts fonctionnels, pas une preuve d’équivalence sonore. Les fonctions sont évaluées comme implémentations indépendantes. Les restrictions de plateforme et les différences de moteur restent explicites.
 
 | Fonction | État | Portée / écart |
 |---|---|---|

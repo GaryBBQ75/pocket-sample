@@ -4,7 +4,7 @@ Studio de sampling mobile pour navigateur : pads, découpe, séquences, effets e
 
 Version web : https://pocket-sample-gary.gary-legrill.chatgpt.site/
 
-Implémentation indépendante inspirée des fonctions du MPC Sample. Ce projet ne contient ni le firmware, ni les sons usine Akai ; ses algorithmes ne reproduisent pas exactement ceux du matériel. Voir [la couverture fonctionnelle](docs/OPTION-COVERAGE.md) et [les notes de version 17](docs/VERSION-17.md).
+Implémentation indépendante inspirée des fonctions du MPC Sample. Ce projet ne contient ni le firmware, ni les sons usine Akai ; ses algorithmes ne reproduisent pas exactement ceux du matériel. Voir [la couverture fonctionnelle](docs/OPTION-COVERAGE.md) et [les notes de version 18](docs/VERSION-18.md).
 
 ## Tester et héberger
 
