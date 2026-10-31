@@ -1,0 +1,42 @@
+{
+  "linux_vs_wasm": {
+    "blocks": 400,
+    "float_values": 102400,
+    "mismatches": 0,
+    "comparison": "bitwise_equal"
+  },
+  "reference_core": {
+    "blocks": 2400,
+    "audio_float_values": 108480,
+    "comparison": "bitwise_equal_for_tested_inputs"
+  },
+  "reference_parameters": {
+    "cases": 1005,
+    "scalar_fields": 10050,
+    "comparison": "bitwise_equal_for_tested_inputs"
+  },
+  "reference_pitch": {
+    "cases": 10008,
+    "comparison": "bitwise_equal_for_tested_inputs"
+  },
+  "android": {
+    "abi": "arm64-v8a",
+    "minimum_api": 26,
+    "target_api": 35,
+    "apk_signature_verified": true,
+    "device_tested": false
+  },
+  "ios_built": false,
+  "complete_mpc_conversion": false,
+  "sample_delay": {
+    "reference_blocks": 1600,
+    "audio_float_values": 114240,
+    "comparison": "bitwise_equal_for_tested_inputs",
+    "UI_linking_verified": false
+  },
+  "combined_linux_vs_wasm": {
+    "blocks": 400,
+    "float_values": 102400,
+    "mismatches": 0
+  }
+}
